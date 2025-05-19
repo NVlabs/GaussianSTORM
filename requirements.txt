@@ -1,0 +1,30 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+torchvision
+timm
+einops
+jaxtyping
+opencv-python
+matplotlib==3.7.3
+imageio
+imageio-ffmpeg
+gdown
+
+
+wandb
+tensorboard
+isort
+pre-commit
+black==22.6.0
+flake8==5.0.4
+pylint==2.15.0
+pandas
+
+# viewer:
+nerfview
+viser
+splines
+loguru
+
+torch_kmeans
+pynvml

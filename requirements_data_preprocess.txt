@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu112
+torch
+waymo-open-dataset-tf-2-11-0==1.6.1
+tensorflow-gpu==2.11.0
+nuscenes-devkit
+tqdm
+imageio
+imageio[ffmpeg]
+scipy
+gdown
+gsutil

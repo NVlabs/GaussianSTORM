@@ -1,0 +1,41 @@
+data/
+data
+work_dirs/
+local_scripts/
+sync_files.sh
+*.mp4
+*draft*
+*.zip
+*.tar
+*.gz
+
+# media
+*.mp4
+*.png
+*.jpg
+*.html
+
+
+ckpts/
+# wandb
+wandb/
+
+# work in progress
+*wip*
+
+*results*
+*debug*
+tmp*
+
+# caches
+*.pyc
+*.swp
+
+
+__pycache__
+
+
+# comming soon
+*viewer*
+third_party/flow3d_viewer/
+third_party/viser_extras/

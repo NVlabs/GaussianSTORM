@@ -1,0 +1,37 @@
+{
+    // Automatically format using Black on save.
+    "editor.formatOnSave": true,
+    // Draw a ruler at Black's column width.
+    "editor.rulers": [
+        100,
+    ],
+    // Hide non-code files.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/venv": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "debug.focusWindowOnBreak": false,
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/checkpoints/**": true,
+        "**/data/**": true,
+        "**/work_dirs/**": true,
+        "**/lightning_logs/**": true,
+        "**/outputs/**": true,
+        "**/dataset_cache/**": true,
+        "**/.ruff_cache/**": true,
+        "**/venv/**": true,
+        "**/data": true
+    },
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true
+}
