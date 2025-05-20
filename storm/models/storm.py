@@ -37,7 +37,7 @@ class STORM(ViT):
         num_heads=12,
         grad_checkpointing=True,
         use_latest_gsplat=False,
-        sigmoid_rgb=True,
+        sigmoid_rgb=False, # a legacy oversight: the sigmoid was accidentally omitted in the earlier implementation
         **kwargs,
     ):
         super(STORM, self).__init__(
