@@ -18,11 +18,11 @@ logger = logging.getLogger("STORM")
 
 
 @torch.no_grad()
-def visualize(args, model, dset_train, step, train_vis_id, device, dset_avl=None, val_vis_id=None):
+def visualize(args, model, dset_train, step, train_vis_id, device, dset_val=None, val_vis_id=None):
     model.eval()
     global_rank = distributed.get_global_rank()
     split = "train"
-    for vis_id, dataset in zip([train_vis_id, val_vis_id], [dset_train, dset_avl]):
+    for vis_id, dataset in zip([train_vis_id, val_vis_id], [dset_train, dset_val]):
         if vis_id is None or dataset is None:  # sometimes there is no validation set
             continue
 
