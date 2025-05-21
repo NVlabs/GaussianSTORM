@@ -37,7 +37,6 @@ def visualize(args, model, dset_train, step, train_vis_id, device, dset_val=None
             output_filename=out_pth,
             scene_id=sample_id,
             skip_plot_gt_depth_and_flow=False,
-            args=args,
         )
 
         logger.info(f"saved video to {out_pth}")
