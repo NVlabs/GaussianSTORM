@@ -469,7 +469,7 @@ def main(args):
                     step=data_iter_step,
                     train_vis_id=vis_slice_id,
                     device=device,
-                    dset_avl=dataset_val,
+                    dset_val=dataset_val,
                     val_vis_id=valid_slice_id,
                 )
             torch.distributed.barrier()
